@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
 module.exports = {
   entry: "./src/client/index.js",
@@ -11,7 +12,8 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "./public/index.html",
-    }),
+      favicon: path.resolve(__dirname, "public", "favicon.png"),
+    })
   ],
   resolve: {
     modules: [__dirname, "src", "node_modules"],

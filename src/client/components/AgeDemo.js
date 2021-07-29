@@ -21,7 +21,7 @@ const AgeDemo = () => {
     
   return (
     <>
-      <h1 className="header">Age Demographics of Users With ____</h1>
+      <h1 className="header">Age Demographic of Users With ____</h1>
       <div className="drop">
       <Dropdown>
         <Dropdown.Toggle variant="success" id="dropdown-basic">

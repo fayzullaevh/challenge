@@ -31,8 +31,8 @@ const TableUsers = () => {
       <Table striped bordered hover>
         <thead>
           <tr>
-            <th>User Name</th>
-            <th>User Age</th>
+            <th>Username</th>
+            <th>Age</th>
           </tr>
         </thead>
         <tbody>
