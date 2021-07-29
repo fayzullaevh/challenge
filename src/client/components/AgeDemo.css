@@ -1,0 +1,17 @@
+.header {
+    text-align: center;
+}
+
+.drop {
+    padding-left:20%;
+    padding-right:50%;
+    margin-bottom: 5px;
+}
+
+.age_table {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.spinner {
+    text-align: center;
+}

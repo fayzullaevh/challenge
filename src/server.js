@@ -2,10 +2,13 @@
 const express = require('express');
 const app = express();
 const registerRoutes = require('./routes');
+const cors = require('cors');
 
 // server config
 const port = process.env.PORT || 3000;
 
+app.use(cors());
+app.use(express.json());
 // register routes
 registerRoutes(app);
 
